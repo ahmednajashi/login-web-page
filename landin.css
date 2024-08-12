@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url(water-drops-green-red-painted-background.jpg) no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    border-radius: 10px;
+   opacity: 0.9;
+}
+
+.login-box {
+    
+    padding: 20px;
+    border-radius: 10px;
+   width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+}
+
+h2 {
+    margin: 0 0 20px;
+    color: #fff;
+    text-align: center;
+    color: black;
+}
+
+
+.input {
+
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+button {
+  
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #008080;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #006666;
+}
+
+.remember-forgot {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: black;
+    font-size: 14px;
+    margin-top: 1px;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.remember-forgot a {
+    color: #00f;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+.remember{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
